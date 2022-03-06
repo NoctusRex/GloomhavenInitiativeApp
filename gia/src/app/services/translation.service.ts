@@ -21,11 +21,17 @@ export class TranslationService {
   }
 
   constructor(private translate: TranslateService) {
-    const langs = toPairs(Languages).map((x) => x[1]);
-    const browserLang = translate.getBrowserLang();
+    this.reload();
+  }
 
-    translate.addLangs(langs);
-    translate.setDefaultLang(Languages.ENGLISH);
-    translate.use(langs.includes(Languages[browserLang]) ? browserLang : 'en');
+  reload(): void {
+    const langs = toPairs(Languages).map((x) => x[1]);
+    const browserLang = this.translate.getBrowserLang();
+
+    this.translate.addLangs(langs);
+    this.translate.setDefaultLang(Languages.ENGLISH);
+    this.language = langs.includes(Languages[browserLang])
+      ? Languages[browserLang]
+      : Languages.ENGLISH;
   }
 }

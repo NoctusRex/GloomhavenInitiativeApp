@@ -1,8 +1,14 @@
 {
   "pages": {
     "home": {
-      "title": "Gloomhaven Initative",
-      "inputPlaceholder": "Initative"
+      "title": "Gloomhaven Initiative",
+      "inputPlaceholder": "Initiative",
+      "level": {
+        "1": "Ungenau",
+        "2": "Fast Genau",
+        "3": "Genau",
+        "4": "Sehr Genau"
+      }
     }
   },
   "initiatives": {

@@ -20,4 +20,27 @@
 </ion-header>
 
 <ion-content>
+  <div>
+    {{ currentInitative | translate }}
+  </div>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar color="primary">
+    <ion-row>
+      <ion-col no-padding size="3">
+        <ion-select [value]="currentLanguage" (ionChange)="languageChanged($event)" interface="popover">
+          <ion-select-option *ngFor="let language of getLanguages()" [value]="language">{{ language }}
+          </ion-select-option>
+        </ion-select>
+      </ion-col>
+      <ion-col no-padding size="9">
+        <ion-select [(ngModel)]="currentLevel" (ionChange)="levelChanged($event)" interface="popover">
+          <ion-select-option *ngFor="let level of getLevels()" [value]="level">{{ 'pages.home.level.' + level |
+            translate }}
+          </ion-select-option>
+        </ion-select>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-footer>

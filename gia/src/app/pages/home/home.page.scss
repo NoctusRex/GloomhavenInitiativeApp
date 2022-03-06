@@ -1,0 +1,22 @@
+ion-select {
+  --padding-top: 0;
+  --padding-bottom: 0;
+}
+
+div {
+  overflow-wrap: break-word;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 4px 4px 8px #d5be93;
+  padding: 10px;
+}
+
+ion-content {
+  --background: none;
+  background-image: url("../../../assets/images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
