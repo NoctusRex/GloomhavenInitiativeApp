@@ -34,9 +34,11 @@ jobs:
         run: npm install
 
       - name: Convert Windows line endings to Linux from the gradlew file
+        working-directory: ./gia
         run: sudo apt update && sudo apt install dos2unix && cd android && dos2unix ./gradlew && cd ..
 
       - name: Make ./gradlew command executable
+        working-directory: ./gia
         run: cd android && chmod +x ./gradlew && cd ..
 
       - name: Build Ionic App
