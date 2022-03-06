@@ -30,9 +30,13 @@ jobs:
         working-directory: ./gia
         run: npm install
 
-      - name: Add Android platform
+      - name: Build Ionic App
         working-directory: ./gia
-        run: ionic capacitor platform add android@latest
+        run: ionic build
+
+      - name: Copy Android
+        working-directory: ./gia
+        run: ionic capacitor copy android
 
       - name: Build Android Dev APK
         working-directory: ./gia
