@@ -108,7 +108,9 @@ export class HomePage implements OnInit {
     return filter(
       Object.keys(Level),
       (x) => !Number.isInteger(Number.parseInt(x))
-    ).map((x) => Level[x]);
+    )
+      .filter((x) => x !== 'NONE')
+      .map((x) => Level[x]);
   }
 
   updateInitiative(): void {
