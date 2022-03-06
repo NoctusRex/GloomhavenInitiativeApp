@@ -58,8 +58,7 @@ jobs:
         run: cd android && ./gradlew assembleDebug && cd ..
 
       - name: Upload generated APK to Github
-        working-directory: ./gia
         uses: actions/upload-artifact@v1
         with:
           name: app-dev
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          path: gia/android/app/build/outputs/apk/debug/app-debug.apk
