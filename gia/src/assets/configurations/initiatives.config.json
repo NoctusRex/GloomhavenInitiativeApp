@@ -1,0 +1,71 @@
+[
+    {
+        "translationId": "initiatives.fast.id",
+        "values": [
+            {
+                "translationId": "initiatives.fast.veryFast.id",
+                "values": [
+                    {
+                        "translationId": "initiatives.fast.veryFast.reallyVeryFast.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.fast.veryFast.reallyVeryFast.1",
+                                "value": 1
+                            },
+                            {
+                                "translationId": "initiatives.fast.veryFast.reallyVeryFast.2",
+                                "value": 2
+                            },
+                            {
+                                "translationId": "initiatives.fast.veryFast.reallyVeryFast.3",
+                                "value": 3
+                            },
+                            {
+                                "translationId": "initiatives.fast.veryFast.reallyVeryFast.4",
+                                "value": 4
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.fast.veryFast.veryFast.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.fast.veryFast.veryFast.5",
+                                "value": 5
+                            },
+                            {
+                                "translationId": "initiatives.fast.veryFast.veryFast.6",
+                                "value": 6
+                            },
+                            {
+                                "translationId": "initiatives.fast.veryFast.veryFast.7",
+                                "value": 7
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.fast.veryFast.nearlyVeryFast.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.fast.veryFast.nearlyVeryFast.8",
+                                "value": 8
+                            },
+                            {
+                                "translationId": "initiatives.fast.veryFast.nearlyVeryFast.9",
+                                "value": 9
+                            },
+                            {
+                                "translationId": "initiatives.fast.veryFast.nearlyVeryFast.10",
+                                "value": 10
+                            },
+                            {
+                                "translationId": "initiatives.fast.veryFast.nearlyVeryFast.11",
+                                "value": 11
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

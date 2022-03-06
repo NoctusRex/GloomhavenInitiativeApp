@@ -1,0 +1,37 @@
+{
+  "pages": {
+    "home": {
+      "title": "Gloomhaven Initiave",
+      "inputPlaceholder": "Initiative"
+    }
+  },
+  "initiatives": {
+    "fast": {
+      "id": "Fast",
+      "veryFast": {
+        "id": "Very Fast",
+        "reallyVeryFast": {
+          "id": "Really Very Fast",
+          "1": "Incredibly Really Very Fast",
+          "2": "Extremely Really Very Fast",
+          "3": "Really Very Fast",
+          "4": "Barely Really Very Fast" 
+        },
+        "veryFast": {
+          "id": "Very Fast",
+          "5": "Extremely Very Fast",
+          "6": "Very Fast",
+          "7": "Barely Very Fast"
+        },
+        "nearlyVeryFast": {
+          "id": "Nearly Very Fast",
+          "8": "Incredibly Nearly Very Fast",
+          "9": "Extremely Nearly Very Fast",
+          "10": "Nearly Very Fast",
+          "11": "Barely Nearly Very Fast" 
+        }
+      }
+    }
+  }
+}
+  
