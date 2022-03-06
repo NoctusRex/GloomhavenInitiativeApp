@@ -36,6 +36,196 @@
           "10": "Nearly Very Fast",
           "11": "Barely Nearly Very Fast" 
         }
+      },
+      "fast": {
+        "id": "Fast",
+        "reallyFast": {
+          "id": "Really Fast",
+          "12": "Incredibly Really Fast",
+          "13": "Extremely Really Fast",
+          "14": "Really Fast",
+          "15": "Barely Really Fast"
+        },
+        "fast": {
+          "id": "Fast",
+          "16": "Extremely Fast",
+          "17": "Fast",
+          "18": "Barely Fast"
+        },
+        "nearlyFast": {
+          "id": "Nearly Fast",
+          "19": "Incredibly Nearly Fast",
+          "20": "Extremely Nearly Fast",
+          "21": "Nearly Fast",
+          "22": "Barely Nearly Fast"
+        }
+      },
+      "quick": {
+        "id": "Quick",
+        "reallyQuick": {
+          "id": "Really Quick",
+          "23": "Incredibly Really Quick",
+          "24": "Extremely Really Quick",
+          "25": "Really Quick",
+          "26": "Barely Really Quick"
+        },
+        "quick": {
+          "id": "Quick",
+          "27": "Extremely Quick",
+          "28": "Quick",
+          "29": "Barely Quick"
+        },
+        "nearlyQuick": {
+          "id": "Nearly Quick",
+          "30": "Incredibly Nearly Quick",
+          "31": "Extremely Nearly Quick",
+          "32": "Nearly Quick",
+          "33": "Barely Nearly Quick"
+        }
+      }
+    },
+    "average": {
+      "id": "Average",
+      "nippy": {
+        "id": "Nippy",
+        "reallyNippy": {
+          "id": "Really Nippy",
+          "34": "Incredibly Really Nippy",
+          "35": "Extremely Really Nippy",
+          "36": "Really Nippy",
+          "37": "Barely Nippy" 
+        },
+        "nippy": {
+          "id": "Nippy",
+          "38": "Extremely Nippy",
+          "39": "Nippy",
+          "40": "Barely Nearly Nippy"
+        },
+        "nearlyNippy": {
+          "id": "Nearly Nippy",
+          "41": "Incredibly Nearly Nippy",
+          "42": "Extremely Nearly Nippy",
+          "43": "Nearly Nippy",
+          "44": "Barely Nearly Nippy" 
+        }
+      },
+      "average": {
+        "id": "Average",
+        "aboveAverage": {
+          "id": "Above Average",
+          "45": "Incredibly Above Average",
+          "46": "Extremely Above Average",
+          "47": "Above Average",
+          "48": "Barely Above Average"
+        },
+        "average": {
+          "id": "Average",
+          "49": "Just Above Average",
+          "50": "Average",
+          "51": "Just Below Average"
+        },
+        "belowAverage": {
+          "id": "Below Average",
+          "52": "Barely Below Average",
+          "53": "Below Average",
+          "54": "Extremely Below Average",
+          "55": "Incredibly Below Average"
+        }
+      },
+      "leisurely": {
+        "id": "Leisurely",
+        "nearlyLeisurely": {
+          "id": "Nearly Leisurely",
+          "56": "Barely Nearly Leisurely",
+          "57": "Nearly Leisurely",
+          "58": "Extremely Nearly Leisurely",
+          "59": "Incredibly Nearly Leisurely"
+        },
+        "leisurely": {
+          "id": "Leisurely",
+          "60": "Extremely Quick",
+          "61": "Quick",
+          "62": "Barely Quick"
+        },
+        "reallyLeisurely": {
+          "id": "Really Leisurely",
+          "63": "Barely Really Leisurely",
+          "64": "Really Leisurely",
+          "65": "Extremely Really Leisurely",
+          "66": "Incredibly Really Leisurely"
+        }
+      }
+    },
+    "slow": {
+      "id": "Slow",
+      "sluggish": {
+        "id": "Sluggish",
+        "nearlySluggish": {
+          "id": "Nearly Sluggish",
+          "67": "Barely Nearly Sluggish",
+          "68": "Nearly Sluggish",
+          "69": "Extremely Nearly Sluggish",
+          "70": "Incredibly Nearly Sluggish" 
+        },
+        "sluggish": {
+          "id": "Sluggish",
+          "71": "Barely Sluggish",
+          "72": "Sluggish",
+          "73": "Extremely Sluggish"
+        },
+        "reallySluggish": {
+          "id": "Really Sluggish",
+          "74": "Barely Really Sluggish",
+          "75": "Really Sluggish",
+          "76": "Extremely Really Sluggish",
+          "77": "Incredibly Really Sluggish" 
+        }
+      },
+      "slow": {
+        "id": "Slow",
+        "nearlySlow": {
+          "id": "Nearly Slow",
+          "78": "Barely Nearly Slow",
+          "79": "Nearly Slow",
+          "80": "Extremely Nearly Slow",
+          "81": "Incredibly Nearly Slow"
+        },
+        "slow": {
+          "id": "Slow",
+          "82": "Barely Slow",
+          "83": "Slow",
+          "84": "Extremely Slow"
+        },
+        "reallySlow": {
+          "id": "Really Slow",
+          "85": "Barely Really Slow",
+          "86": "Really Slow",
+          "87": "Extremely Really Slow",
+          "88": "Incredibly Really Slow"
+        }
+      },
+      "verySlow": {
+        "id": "Very Slow",
+        "nearlyVerySlow": {
+          "id": "Nearly Very Slow",
+          "89": "Barely Nearly Very Slow",
+          "90": "Nearly Very Slow",
+          "91": "Extremely Nearly Very Slow",
+          "92": "Incredibly Nearly Very Slow"
+        },
+        "verySlow": {
+          "id": "Very Slow",
+          "93": "Barely Very Slow",
+          "94": "Very Slow",
+          "95": "Extremely Very Slow"
+        },
+        "reallyVerySlow": {
+          "id": "Really Very Slow",
+          "96": "Nearly Really Very Slow",
+          "97": "Really Very Slow",
+          "98": "Extremely Really Very Slow",
+          "99": "Incredibly Really Very Slow"
+        }
       }
     }
   }

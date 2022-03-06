@@ -65,6 +65,528 @@
                         ]
                     }
                 ]
+            },
+            {
+                "translationId": "initiatives.fast.fast.id",
+                "values": [
+                    {
+                        "translationId": "initiatives.fast.fast.reallyFast.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.fast.fast.reallyFast.12",
+                                "value": 12
+                            },
+                            {
+                                "translationId": "initiatives.fast.fast.reallyFast.13",
+                                "value": 13
+                            },
+                            {
+                                "translationId": "initiatives.fast.fast.reallyFast.14",
+                                "value": 14
+                            },
+                            {
+                                "translationId": "initiatives.fast.fast.reallyFast.15",
+                                "value": 15
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.fast.fast.fast.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.fast.fast.fast.16",
+                                "value": 16
+                            },
+                            {
+                                "translationId": "initiatives.fast.fast.fast.17",
+                                "value": 17
+                            },
+                            {
+                                "translationId": "initiatives.fast.fast.fast.18",
+                                "value": 18
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.fast.fast.nearlyFast.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.fast.fast.nearlyFast.19",
+                                "value": 19
+                            },
+                            {
+                                "translationId": "initiatives.fast.fast.nearlyFast.20",
+                                "value": 20
+                            },
+                            {
+                                "translationId": "initiatives.fast.fast.nearlyFast.21",
+                                "value": 21
+                            },
+                            {
+                                "translationId": "initiatives.fast.fast.nearlyFast.22",
+                                "value": 22
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "translationId": "initiatives.fast.quick.id",
+                "values": [
+                    {
+                        "translationId": "initiatives.fast.quick.reallyQuick.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.fast.quick.reallyQuick.23",
+                                "value": 23
+                            },
+                            {
+                                "translationId": "initiatives.fast.quick.reallyQuick.24",
+                                "value": 24
+                            },
+                            {
+                                "translationId": "initiatives.fast.quick.reallyQuick.25",
+                                "value": 25
+                            },
+                            {
+                                "translationId": "initiatives.fast.quick.reallyQuick.26",
+                                "value": 26
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.fast.quick.quick.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.fast.quick.quick.27",
+                                "value": 27
+                            },
+                            {
+                                "translationId": "initiatives.fast.quick.quick.28",
+                                "value": 28
+                            },
+                            {
+                                "translationId": "initiatives.fast.quick.quick.29",
+                                "value": 29
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.fast.quick.nearlyQuick.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.fast.quick.nearlyQuick.30",
+                                "value": 30
+                            },
+                            {
+                                "translationId": "initiatives.fast.quick.nearlyQuick.31",
+                                "value": 31
+                            },
+                            {
+                                "translationId": "initiatives.fast.quick.nearlyQuick.32",
+                                "value": 32
+                            },
+                            {
+                                "translationId": "initiatives.fast.quick.nearlyQuick.33",
+                                "value": 33
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "translationId": "initiatives.average.id",
+        "values": [
+            {
+                "translationId": "initiatives.average.nippy.id",
+                "values": [
+                    {
+                        "translationId": "initiatives.average.nippy.reallyNippy.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.average.nippy.reallyNippy.34",
+                                "value": 34
+                            },
+                            {
+                                "translationId": "initiatives.average.nippy.reallyNippy.35",
+                                "value": 35
+                            },
+                            {
+                                "translationId": "initiatives.average.nippy.reallyNippy.36",
+                                "value": 36
+                            },
+                            {
+                                "translationId": "initiatives.average.nippy.reallyNippy.37",
+                                "value": 37
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.average.nippy.nippy.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.average.nippy.nippy.38",
+                                "value": 38
+                            },
+                            {
+                                "translationId": "initiatives.average.nippy.nippy.39",
+                                "value": 39
+                            },
+                            {
+                                "translationId": "initiatives.average.nippy.nippy.40",
+                                "value": 40
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.average.nippy.nearlyNippy.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.average.nippy.nearlyNippy.41",
+                                "value": 41
+                            },
+                            {
+                                "translationId": "initiatives.average.nippy.nearlyNippy.42",
+                                "value": 42
+                            },
+                            {
+                                "translationId": "initiatives.average.nippy.nearlyNippy.43",
+                                "value": 43
+                            },
+                            {
+                                "translationId": "initiatives.average.nippy.nearlyNippy.44",
+                                "value": 44
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "translationId": "initiatives.average.average.id",
+                "values": [
+                    {
+                        "translationId": "initiatives.average.average.aboveAverage.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.average.average.aboveAverage.45",
+                                "value": 45
+                            },
+                            {
+                                "translationId": "initiatives.average.average.aboveAverage.46",
+                                "value": 46
+                            },
+                            {
+                                "translationId": "initiatives.average.average.aboveAverage.47",
+                                "value": 47
+                            },
+                            {
+                                "translationId": "initiatives.average.average.aboveAverage.48",
+                                "value": 48
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.average.average.average.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.average.average.average.49",
+                                "value": 49
+                            },
+                            {
+                                "translationId": "initiatives.average.average.average.50",
+                                "value": 50
+                            },
+                            {
+                                "translationId": "initiatives.average.average.average.51",
+                                "value": 51
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.average.average.belowAverage.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.average.average.belowAverage.52",
+                                "value": 52
+                            },
+                            {
+                                "translationId": "initiatives.average.average.belowAverage.53",
+                                "value": 53
+                            },
+                            {
+                                "translationId": "initiatives.average.average.belowAverage.54",
+                                "value": 54
+                            },
+                            {
+                                "translationId": "initiatives.average.average.belowAverage.55",
+                                "value": 55
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "translationId": "initiatives.average.leisurely.id",
+                "values": [
+                    {
+                        "translationId": "initiatives.average.leisurely.nearlyLeisurely.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.average.leisurely.nearlyLeisurely.56",
+                                "value": 56
+                            },
+                            {
+                                "translationId": "initiatives.average.leisurely.nearlyLeisurely.57",
+                                "value": 57
+                            },
+                            {
+                                "translationId": "initiatives.average.leisurely.nearlyLeisurely.58",
+                                "value": 58
+                            },
+                            {
+                                "translationId": "initiatives.average.leisurely.nearlyLeisurely.59",
+                                "value": 59
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.average.leisurely.leisurely.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.average.leisurely.leisurely.60",
+                                "value": 60
+                            },
+                            {
+                                "translationId": "initiatives.average.leisurely.leisurely.61",
+                                "value": 61
+                            },
+                            {
+                                "translationId": "initiatives.average.leisurely.leisurely.62",
+                                "value": 62
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.average.leisurely.reallyLeisurely.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.average.leisurely.reallyLeisurely.63",
+                                "value": 63
+                            },
+                            {
+                                "translationId": "initiatives.average.leisurely.reallyLeisurely.64",
+                                "value": 64
+                            },
+                            {
+                                "translationId": "initiatives.average.leisurely.reallyLeisurely.65",
+                                "value": 65
+                            },
+                            {
+                                "translationId": "initiatives.average.leisurely.reallyLeisurely.66",
+                                "value": 66
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "translationId": "initiatives.slow.id",
+        "values": [
+            {
+                "translationId": "initiatives.slow.sluggish.id",
+                "values": [
+                    {
+                        "translationId": "initiatives.slow.sluggish.nearlySluggish.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.slow.sluggish.nearlySluggish.67",
+                                "value": 67
+                            },
+                            {
+                                "translationId": "initiatives.slow.sluggish.nearlySluggish.68",
+                                "value": 68
+                            },
+                            {
+                                "translationId": "initiatives.slow.sluggish.nearlySluggish.69",
+                                "value": 69
+                            },
+                            {
+                                "translationId": "initiatives.slow.sluggish.nearlySluggish.70",
+                                "value": 70
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.slow.sluggish.sluggish.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.slow.sluggish.sluggish.71",
+                                "value": 71
+                            },
+                            {
+                                "translationId": "initiatives.slow.sluggish.sluggish.72",
+                                "value": 72
+                            },
+                            {
+                                "translationId": "initiatives.slow.sluggish.sluggish.73",
+                                "value": 73
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.slow.sluggish.reallySluggish.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.slow.sluggish.reallySluggish.74",
+                                "value": 74
+                            },
+                            {
+                                "translationId": "initiatives.slow.sluggish.reallySluggish.75",
+                                "value": 75
+                            },
+                            {
+                                "translationId": "initiatives.slow.sluggish.reallySluggish.76",
+                                "value": 76
+                            },
+                            {
+                                "translationId": "initiatives.slow.sluggish.reallySluggish.77",
+                                "value": 77
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "translationId": "initiatives.slow.slow.id",
+                "values": [
+                    {
+                        "translationId": "initiatives.slow.slow.nearlySlow.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.slow.slow.nearlySlow.78",
+                                "value": 78
+                            },
+                            {
+                                "translationId": "initiatives.slow.slow.nearlySlow.79",
+                                "value": 79
+                            },
+                            {
+                                "translationId": "initiatives.slow.slow.nearlySlow.80",
+                                "value": 80
+                            },
+                            {
+                                "translationId": "initiatives.slow.slow.nearlySlow.81",
+                                "value": 81
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.slow.slow.slow.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.slow.slow.slow.82",
+                                "value": 82
+                            },
+                            {
+                                "translationId": "initiatives.slow.slow.slow.83",
+                                "value": 83
+                            },
+                            {
+                                "translationId": "initiatives.slow.slow.slow.84",
+                                "value": 84
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.slow.slow.reallySlow.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.slow.slow.reallySlow.85",
+                                "value": 85
+                            },
+                            {
+                                "translationId": "initiatives.slow.slow.reallySlow.86",
+                                "value": 86
+                            },
+                            {
+                                "translationId": "initiatives.slow.slow.reallySlow.87",
+                                "value": 87
+                            },
+                            {
+                                "translationId": "initiatives.slow.slow.reallySlow.88",
+                                "value": 88
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "translationId": "initiatives.slow.verySlow.id",
+                "values": [
+                    {
+                        "translationId": "initiatives.slow.verySlow.nearlyVerySlow.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.slow.verySlow.nearlyVerySlow.89",
+                                "value": 89
+                            },
+                            {
+                                "translationId": "initiatives.slow.verySlow.nearlyVerySlow.90",
+                                "value": 90
+                            },
+                            {
+                                "translationId": "initiatives.slow.verySlow.nearlyVerySlow.91",
+                                "value": 91
+                            },
+                            {
+                                "translationId": "initiatives.slow.verySlow.nearlyVerySlow.92",
+                                "value": 92
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.slow.verySlow.verySlow.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.slow.verySlow.verySlow.93",
+                                "value": 93
+                            },
+                            {
+                                "translationId": "initiatives.slow.verySlow.verySlow.94",
+                                "value": 94
+                            },
+                            {
+                                "translationId": "initiatives.slow.verySlow.verySlow.95",
+                                "value": 95
+                            }
+                        ]
+                    },
+                    {
+                        "translationId": "initiatives.slow.verySlow.reallyVerySlow.id",
+                        "values": [
+                            {
+                                "translationId": "initiatives.slow.verySlow.reallyVerySlow.96",
+                                "value": 96
+                            },
+                            {
+                                "translationId": "initiatives.slow.verySlow.reallyVerySlow.97",
+                                "value": 97
+                            },
+                            {
+                                "translationId": "initiatives.slow.verySlow.reallyVerySlow.98",
+                                "value": 98
+                            },
+                            {
+                                "translationId": "initiatives.slow.verySlow.reallyVerySlow.99",
+                                "value": 99
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }
