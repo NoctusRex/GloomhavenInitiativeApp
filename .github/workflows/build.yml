@@ -43,7 +43,7 @@ jobs:
 
       - name: Build Ionic App
         working-directory: ./gia
-        run: ionic build && npx cap update android
+        run: ionic build
 
       - name: Copy Android
         working-directory: ./gia
