@@ -5,15 +5,12 @@
     </ion-title>
   </ion-toolbar>
   <ion-toolbar color="light">
-    <form [formGroup]="form.formGroup" (ngSubmit)="onSubmit()">
+    <form [formGroup]="form.formGroup">
       <ion-item lines="none">
-        <ion-icon name="speedometer" slot="start" [color]="form.canSubmit() ? 'success' : 'danger' "></ion-icon>
+        <ion-icon name="walk" slot="start" [color]="form.canSubmit() ? 'success' : 'danger' "></ion-icon>
         <ion-input formControlName="initiative" type="number" [placeholder]="'pages.home.inputPlaceholder' | translate"
           autofocus="true" clearInput>
         </ion-input>
-        <ion-button type="submit" [disabled]="!form.canSubmit()">
-          <ion-icon name="chevron-forward"></ion-icon>
-        </ion-button>
       </ion-item>
     </form>
   </ion-toolbar>
@@ -21,7 +18,7 @@
 
 <ion-content>
   <div>
-    {{ currentInitative | translate }}
+    {{ currentInitative | translate | uppercase }}
   </div>
 </ion-content>
 

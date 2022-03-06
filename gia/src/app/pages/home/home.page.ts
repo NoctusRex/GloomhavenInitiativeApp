@@ -6,6 +6,7 @@ import {
   Validators,
 } from '@angular/forms';
 import { filter, isNumber, toPairs } from 'lodash-es';
+import { interval, of } from 'rxjs';
 import { InitiativesConfigurationService } from 'src/app/services/initatives-configuration.service';
 import {
   Languages,
@@ -14,10 +15,11 @@ import {
 import { Form } from '../../models/form.model';
 
 export enum Level {
-  Level1 = 1,
-  Level2 = 2,
-  Level3 = 3,
-  Level4 = 4,
+  NONE = 0,
+  LEVEL1 = 1,
+  LEVEL2 = 2,
+  LEVEL3 = 3,
+  LEVEL4 = 4,
 }
 
 @Component({
@@ -49,21 +51,18 @@ export class HomePage implements OnInit {
       ]),
     });
 
+    this.form.formGroup.valueChanges.subscribe(() => {
+      this.updateInitiative();
+    });
+
     this.currentInitative = undefined;
     this.currentLanguage = this.translationService.language;
-    this.currentLevel = Level.Level2;
-  }
-
-  onSubmit() {
-    if (!this.form.canSubmit()) return;
-
-    this.currentInitative = this.getInitiativeTranslationId(
-      this.form.get('initiative')
-    );
+    this.currentLevel = Level.LEVEL2;
   }
 
   getInitiativeTranslationId(initative: number): string {
     let translationId: string = undefined;
+    if (this.currentLevel === Level.NONE) return translationId;
 
     this.initiativesConfigurationService.configuration.forEach((level1) => {
       if (translationId) return;
@@ -77,13 +76,13 @@ export class HomePage implements OnInit {
           level3.values.forEach((level4) => {
             if (level4.value === initative) {
               switch (this.currentLevel) {
-                case Level.Level1:
+                case Level.LEVEL1:
                   translationId = level1.translationId;
                   break;
-                case Level.Level2:
+                case Level.LEVEL2:
                   translationId = level2.translationId;
                   break;
-                case Level.Level3:
+                case Level.LEVEL3:
                   translationId = level3.translationId;
                   break;
                 default:
@@ -112,13 +111,26 @@ export class HomePage implements OnInit {
     ).map((x) => Level[x]);
   }
 
+  updateInitiative(): void {
+    if (!this.form.get('initiative')) {
+      this.currentInitative = undefined;
+    } else {
+      if (!this.form.canSubmit()) return;
+
+      this.currentInitative = this.getInitiativeTranslationId(
+        this.form.get('initiative')
+      );
+    }
+  }
+
   languageChanged(event: any): void {
     this.translationService.language = event.detail.value;
 
     // I'am hacking right here officer
     // -> Update Level-Select-Translation on language change
     const lastLevel = this.currentLevel;
-    this.currentLevel = undefined;
+    this.currentLevel = Level.NONE;
+
     setTimeout(() => {
       this.currentLevel = lastLevel;
     }, 100);
@@ -126,6 +138,6 @@ export class HomePage implements OnInit {
 
   levelChanged(event: any): void {
     this.currentLevel = event.detail.value;
-    this.onSubmit();
+    this.updateInitiative();
   }
 }

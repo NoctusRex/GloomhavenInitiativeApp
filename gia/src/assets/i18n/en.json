@@ -4,6 +4,7 @@
       "title": "Gloomhaven Initiative",
       "inputPlaceholder": "Initiative",
       "level": {
+        "0": "",
         "1": "Not Accurate",
         "2": "Nearly Accurate",
         "3": "Accurate",
@@ -21,7 +22,7 @@
           "1": "Incredibly Really Very Fast",
           "2": "Extremely Really Very Fast",
           "3": "Really Very Fast",
-          "4": "Barely Really Very Fast" 
+          "4": "Barely Really Very Fast"
         },
         "veryFast": {
           "id": "Very Fast",
@@ -34,7 +35,7 @@
           "8": "Incredibly Nearly Very Fast",
           "9": "Extremely Nearly Very Fast",
           "10": "Nearly Very Fast",
-          "11": "Barely Nearly Very Fast" 
+          "11": "Barely Nearly Very Fast"
         }
       },
       "fast": {
@@ -93,20 +94,20 @@
           "34": "Incredibly Really Nippy",
           "35": "Extremely Really Nippy",
           "36": "Really Nippy",
-          "37": "Barely Nippy" 
+          "37": "Barely Nearly Nippy"
         },
         "nippy": {
           "id": "Nippy",
           "38": "Extremely Nippy",
           "39": "Nippy",
-          "40": "Barely Nearly Nippy"
+          "40": "Barely Nippy"
         },
         "nearlyNippy": {
           "id": "Nearly Nippy",
           "41": "Incredibly Nearly Nippy",
           "42": "Extremely Nearly Nippy",
           "43": "Nearly Nippy",
-          "44": "Barely Nearly Nippy" 
+          "44": "Barely Nearly Nippy"
         }
       },
       "average": {
@@ -143,9 +144,9 @@
         },
         "leisurely": {
           "id": "Leisurely",
-          "60": "Extremely Quick",
-          "61": "Quick",
-          "62": "Barely Quick"
+          "60": "Extremely Leisurely",
+          "61": "Leisurely",
+          "62": "Barely Leisurely"
         },
         "reallyLeisurely": {
           "id": "Really Leisurely",
@@ -165,7 +166,7 @@
           "67": "Barely Nearly Sluggish",
           "68": "Nearly Sluggish",
           "69": "Extremely Nearly Sluggish",
-          "70": "Incredibly Nearly Sluggish" 
+          "70": "Incredibly Nearly Sluggish"
         },
         "sluggish": {
           "id": "Sluggish",
@@ -178,7 +179,7 @@
           "74": "Barely Really Sluggish",
           "75": "Really Sluggish",
           "76": "Extremely Really Sluggish",
-          "77": "Incredibly Really Sluggish" 
+          "77": "Incredibly Really Sluggish"
         }
       },
       "slow": {
@@ -230,4 +231,3 @@
     }
   }
 }
-  

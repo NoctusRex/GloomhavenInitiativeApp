@@ -4,6 +4,7 @@
       "title": "Gloomhaven Initiative",
       "inputPlaceholder": "Initiative",
       "level": {
+        "0": "",
         "1": "Ungenau",
         "2": "Fast Genau",
         "3": "Genau",
@@ -21,7 +22,7 @@
           "1": "Wirklich Sehr Unglaublich Schnell",
           "2": "Wirklich Sehr Extrem Schnell",
           "3": "Wirklich Sehr Schnell",
-          "4": "Fast Wirklich Sehr Schnell" 
+          "4": "Fast Wirklich Sehr Schnell"
         },
         "veryFast": {
           "id": "Sehr Schnell",
@@ -34,10 +35,199 @@
           "8": "Fast Sehr Unglaublich Schnell",
           "9": "Fast Sehr Extrem Schnell",
           "10": "Fast Sehr Schnell",
-          "11": "Fast Beinahe Sehr Schnell" 
+          "11": "Fast Beinahe Sehr Schnell"
+        }
+      },
+      "fast": {
+        "id": "Schnell",
+        "reallyFast": {
+          "id": "Wirklich Schnell",
+          "12": "Unglaublich Wirklich Schnell",
+          "13": "Extrem Wirklich Schnell",
+          "14": "Wirklich Schnell",
+          "15": "Wirklich Fast Schnell"
+        },
+        "fast": {
+          "id": "Schnell",
+          "16": "Extrem Schnell",
+          "17": "Schnell",
+          "18": "Beinahe Schnell"
+        },
+        "nearlyFast": {
+          "id": "Fast Schnell",
+          "19": "Unglaublich Fast Schnell",
+          "20": "Extrem Fast Schnell",
+          "21": "Fast Schnell",
+          "22": "Beinahe Fast Schnell"
+        }
+      },
+      "quick": {
+        "id": "Zügig",
+        "reallyQuick": {
+          "id": "Sehr Zügig",
+          "23": "Sehr Unglaublich Zügig",
+          "24": "Sehr Extrem Zügig",
+          "25": "Sehr Zügig",
+          "26": "Beinahe Sehr Zügig"
+        },
+        "quick": {
+          "id": "Zügig",
+          "27": "Extrem Zügig",
+          "28": "Zügig",
+          "29": "Beinahe Zügig"
+        },
+        "nearlyQuick": {
+          "id": "Fast Zügig",
+          "30": "Fast Unglaublich Zügig",
+          "31": "Fast Extrem Zügig",
+          "32": "Fast Zügig",
+          "33": "Beinahe Fast Zügig"
+        }
+      }
+    },
+    "average": {
+      "id": "Durchschnittlich",
+      "nippy": {
+        "id": "Flott",
+        "reallyNippy": {
+          "id": "Wirklich Flott",
+          "34": "Wirklich Unglaublich Flott",
+          "35": "Wirklich Extrem Flott",
+          "36": "Wirklich Flott",
+          "37": "Fast Wirklich Flott"
+        },
+        "nippy": {
+          "id": "Flott",
+          "38": "Extrem Flott",
+          "39": "Flott",
+          "40": "Fast Flott"
+        },
+        "nearlyNippy": {
+          "id": "Fast Flott",
+          "41": "Unglaublich Fast Flott",
+          "42": "Extrem Fast Flott",
+          "43": "Fast Flott",
+          "44": "Beinahe Fast Flott"
+        }
+      },
+      "average": {
+        "id": "Durchschnittlich",
+        "aboveAverage": {
+          "id": "Überdurchscnittlich",
+          "45": "Unglaublich Überdurchschnittlich",
+          "46": "Extrem Überdurchschnittlich",
+          "47": "Überdurchschnittlich",
+          "48": "Beinahe Überdurchschnittlich"
+        },
+        "average": {
+          "id": "Average",
+          "49": "Knapp Überdurchschnittlich",
+          "50": "Durchschnittlich",
+          "51": "Knapp Unterdurchschnittlich"
+        },
+        "belowAverage": {
+          "id": "Unterdurchschnittlich",
+          "52": "Beinahe Unterdurchschnittlich",
+          "53": "Unterdurchschnittlich",
+          "54": "Extrem Unterdurchschnittlich",
+          "55": "Unglaublich Unterdurchschnittlich"
+        }
+      },
+      "leisurely": {
+        "id": "Gemütlich",
+        "nearlyLeisurely": {
+          "id": "Fast Gemütlich",
+          "56": "Beinahe Fast Gemütlich",
+          "57": "Fast Gemütlich",
+          "58": "Extrem Fast Gemütlich",
+          "59": "Unglaublich Fast Gemütlich"
+        },
+        "leisurely": {
+          "id": "Gemütlich",
+          "60": "Extrem Gemütlich",
+          "61": "Gemütlich",
+          "62": "Beinahe Gemütlich"
+        },
+        "reallyLeisurely": {
+          "id": "Wirklich Gemütlich",
+          "63": "Beinahe Wirklich Gemütlich",
+          "64": "Wirklich Gemütlich",
+          "65": "Wirklich Extrem Gemütlich",
+          "66": "Wirklich Unglaublich Gemütlich"
+        }
+      }
+    },
+    "slow": {
+      "id": "Langsam",
+      "sluggish": {
+        "id": "Träge",
+        "nearlySluggish": {
+          "id": "Fast Träge",
+          "67": "Beinahe Fast Träge",
+          "68": "Fast Träge",
+          "69": "Extrem Fast Träge",
+          "70": "Unglaublich Fast Träge"
+        },
+        "sluggish": {
+          "id": "Träge",
+          "71": "Beinahe Träge",
+          "72": "Träge",
+          "73": "Extrem Träge"
+        },
+        "reallySluggish": {
+          "id": "Wirklich Träge",
+          "74": "Beinahe Wirklich Träge",
+          "75": "Wirklich Träge",
+          "76": "Extrem Wirklich Träge",
+          "77": "Unglaublich Wirklich Träge"
+        }
+      },
+      "slow": {
+        "id": "Langsam",
+        "nearlySlow": {
+          "id": "Fast Langsam",
+          "78": "Beinahe Fast Langsam",
+          "79": "Fast Langsam",
+          "80": "Extrem Fast Langsam",
+          "81": "Unglaublich Fast Langsam"
+        },
+        "slow": {
+          "id": "Langsam",
+          "82": "Beinahe Langsam",
+          "83": "Langsam",
+          "84": "Extrem Langsam"
+        },
+        "reallySlow": {
+          "id": "Wirklich Langsam",
+          "85": "Beinahe Wirklich Langsam",
+          "86": "Wirklich Langsam",
+          "87": "Extrem Wirklich Langsam",
+          "88": "Unglaublich Wirklich Langsam"
+        }
+      },
+      "verySlow": {
+        "id": "Sehr Langsam",
+        "nearlyVerySlow": {
+          "id": "Fast Sehr Langsam",
+          "89": "Beinahe Fast Sehr Langsam",
+          "90": "Fast Sehr Langsam",
+          "91": "Extrem Fast Sehr Langsam",
+          "92": "Unglaublich Fast Sehr Langsam"
+        },
+        "verySlow": {
+          "id": "Sehr Langsam",
+          "93": "Beinahe Sehr Langsam",
+          "94": "Sehr Langsam",
+          "95": "Extrem Sehr Langsam"
+        },
+        "reallyVerySlow": {
+          "id": "Wirklich Sehr Langsam",
+          "96": "Beinahe Wirklich Sehr Langsam",
+          "97": "Wirklich Sehr Langsam",
+          "98": "Extrem Wirklich Sehr Langsam",
+          "99": "Unglaublich Wirklich Sehr Langsam"
         }
       }
     }
   }
 }
-  
