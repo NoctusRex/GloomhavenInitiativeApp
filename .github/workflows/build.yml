@@ -48,6 +48,10 @@ jobs:
       - name: Copy Android
         working-directory: ./gia
         run: ionic capacitor copy android
+        
+      - name: Sync Android
+        working-directory: ./gia
+        run: ionic capacitor sync android
 
       - name: Build Android APK
         working-directory: ./gia
