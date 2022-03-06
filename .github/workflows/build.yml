@@ -30,6 +30,7 @@ jobs:
         run: npm install
 
       - name: Add Android platform
+        working-directory: ./gia
         run: ionic cordova platform add android@latest
 
       - name: Build Android Dev APK
@@ -41,7 +42,7 @@ jobs:
         run: ionic cordova build android --release --prod
 
       - name: Generate the Android App Bundle
-        working-directory: ../platforms/android/
+        working-directory: ./platforms/android/
         run: ./gradlew bundle
 
       - name: Upload dev APK
