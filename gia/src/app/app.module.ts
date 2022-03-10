@@ -9,10 +9,15 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslationService } from './services/translation.service';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
 
 // AoT requires an exported function for factories
-export function HttpLoaderFactory(httpClient: HttpClient) {
-  return new TranslateHttpLoader(httpClient);
+export function HttpLoaderFactory(httpClient: HttpClient, baseHref: string) {
+  return new TranslateHttpLoader(httpClient, `${baseHref}assets/i18n/`);
+}
+
+export function getBaseHref(platformLocation: PlatformLocation): string {
+  return platformLocation.getBaseHrefFromDOM();
 }
 
 @NgModule({
@@ -27,7 +32,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
-        deps: [HttpClient],
+        deps: [HttpClient, APP_BASE_HREF],
       },
     }),
   ],
@@ -35,6 +40,11 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     InitiativesConfigurationService,
     TranslationService,
+    {
+      provide: APP_BASE_HREF,
+      useFactory: getBaseHref,
+      deps: [PlatformLocation],
+    },
   ],
   bootstrap: [AppComponent],
 })
