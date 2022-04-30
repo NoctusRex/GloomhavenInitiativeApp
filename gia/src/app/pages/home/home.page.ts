@@ -5,13 +5,15 @@ import {
   ValidationErrors,
   Validators,
 } from '@angular/forms';
-import { filter, isNumber, toPairs } from 'lodash-es';
-import { interval, of } from 'rxjs';
-import { InitiativesConfigurationService } from 'src/app/services/initatives-configuration.service';
+import { filter, toPairs } from 'lodash-es';
+import { Languages } from 'src/app/consts/languages.const';
 import {
-  Languages,
-  TranslationService,
-} from 'src/app/services/translation.service';
+  LANGUE_STORAGE_KEY,
+  LEVEL_STORAGE_KEY,
+} from 'src/app/consts/storage-keys.const';
+import { InitiativesConfigurationService } from 'src/app/services/initatives-configuration.service';
+import { LocalStorageService } from 'src/app/services/local-storage.service';
+import { TranslationService } from 'src/app/services/translation.service';
 import { Form } from '../../models/form.model';
 
 export enum Level {
@@ -35,7 +37,8 @@ export class HomePage implements OnInit {
 
   constructor(
     protected initiativesConfigurationService: InitiativesConfigurationService,
-    protected translationService: TranslationService
+    protected translationService: TranslationService,
+    protected localStorageService: LocalStorageService
   ) {}
 
   ngOnInit(): void {
@@ -56,8 +59,18 @@ export class HomePage implements OnInit {
     });
 
     this.currentInitative = undefined;
+
+    this.translationService.language =
+      this.localStorageService.getItem<Languages>(
+        LANGUE_STORAGE_KEY,
+        this.translationService.language
+      );
     this.currentLanguage = this.translationService.language;
-    this.currentLevel = Level.LEVEL2;
+
+    this.currentLevel = this.localStorageService.getItem(
+      LEVEL_STORAGE_KEY,
+      Level.LEVEL2
+    );
   }
 
   getInitiativeTranslationId(initative: number): string {
@@ -127,6 +140,10 @@ export class HomePage implements OnInit {
 
   languageChanged(event: any): void {
     this.translationService.language = event.detail.value;
+    this.localStorageService.setItem(
+      LANGUE_STORAGE_KEY,
+      this.translationService.language
+    );
 
     // I'am hacking right here officer
     // -> Update Level-Select-Translation on language change
@@ -140,6 +157,8 @@ export class HomePage implements OnInit {
 
   levelChanged(event: any): void {
     this.currentLevel = event.detail.value;
+    this.localStorageService.setItem(LEVEL_STORAGE_KEY, this.currentLevel);
+
     this.updateInitiative();
   }
 }

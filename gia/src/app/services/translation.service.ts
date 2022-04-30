@@ -1,11 +1,7 @@
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { toPairs } from 'lodash-es';
-
-export enum Languages {
-  ENGLISH = 'en',
-  GERMAN = 'de',
-}
+import { Languages } from '../consts/languages.const';
 
 @Injectable()
 export class TranslationService {
